@@ -1,0 +1,307 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Justin",
+      "email": "justin@gmail.com"
+    },
+    {
+      "name": "",
+      "email": "moonlight@gmail.com",
+      "fullName": "Moonlight",
+      "id": 2
+    },
+    {
+      "name": "",
+      "email": "danny@gmail.com",
+      "fullName": "Danny",
+      "id": 3
+    }
+  ],
+  "campaigns": [
+    {
+      "id": 1,
+      "userId": 1,
+      "isActive": true,
+      "name": "The Cult of Hadar",
+      "setting": "Najara",
+      "image": "https://www.dungeonmastering.com/wp-content/uploads/2021/05/lash-kalashtar-warlock-1024x585.png",
+      "sessions": [
+        {
+          "campaignId": 1,
+          "sessionNumber": 1,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "userId": 1,
+      "isActive": true,
+      "name": "Light of Xaryxis",
+      "setting": "Realmspace",
+      "image": "https://images.ctfassets.net/swt2dsco9mfe/1UG9tNpFASJrPUUFdD8u2p/027f695680762ff3baab5d21d045d0d1/product-hero-spelljammer-3.jpg?q=70&w=1920",
+      "id": 2
+    },
+    {
+      "id": 3,
+      "userId": 1,
+      "isActive": false,
+      "name": "Hoard of the Dragon Queen",
+      "setting": "Sword Coast",
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2022/11/Shadow-of-the-Dragon-Queen-Dragonlance.jpg"
+    },
+    {
+      "userId": 2,
+      "isActive": false,
+      "name": "Furry Bunny",
+      "setting": "Bunny Meadows",
+      "image": "https://img.freepik.com/premium-photo/bunny-naps-sunny-flower-fluff_975256-3330.jpg",
+      "id": 4
+    },
+    {
+      "userId": 2,
+      "isActive": true,
+      "name": "Board Art Online :Ultra X",
+      "setting": "Peach Creek",
+      "image": "https://pbs.twimg.com/media/EG3iDX4XkAUrqRb.jpg",
+      "id": 5
+    },
+    {
+      "userId": 1,
+      "isActive": true,
+      "name": "Icewind Dale",
+      "setting": "Frozenfar",
+      "image": "https://cdna.artstation.com/p/assets/images/images/033/783/650/4k/leonard-haas-icewind-dale-concept-final.jpg?1610554838",
+      "id": 6
+    },
+    {
+      "userId": 3,
+      "isActive": true,
+      "name": "The Smallest Soldier",
+      "setting": "Back Yard",
+      "image": "https://i0.wp.com/dungeonsanddragonsfan.com/wp-content/uploads/2024/02/humblewood-campaign-setting-hero.png?fit=800%2C450&ssl=1",
+      "id": 7
+    },
+    {
+      "userId": 1,
+      "isActive": true,
+      "name": "Board Art Online",
+      "setting": "Japan",
+      "image": "https://pbs.twimg.com/media/EG3iDX4XkAUrqRb.jpg",
+      "id": 8
+    }
+  ],
+  "sessions": [
+    {
+      "campaignId": 1,
+      "sessionNumber": 1,
+      "id": 1
+    },
+    {
+      "campaignId": 2,
+      "sessionNumber": 1,
+      "id": 2
+    },
+    {
+      "campaignId": 3,
+      "sessionNumber": 1,
+      "id": 3
+    },
+    {
+      "campaignId": 4,
+      "sessionNumber": 1,
+      "id": 4
+    },
+    {
+      "campaignId": 5,
+      "sessionNumber": 1,
+      "id": 5
+    },
+    {
+      "campaignId": 6,
+      "sessionNumber": 1,
+      "id": 6
+    },
+    {
+      "campaignId": 7,
+      "sessionNumber": 1,
+      "id": 7
+    },
+    {
+      "campaignId": 1,
+      "sessionNumber": 2,
+      "id": 8
+    },
+    {
+      "campaignId": 8,
+      "sessionNumber": 1,
+      "id": 9
+    }
+  ],
+  "encounters": [
+    {
+      "id": 2,
+      "sessionId": 1,
+      "encounterTypeId": 4,
+      "isForm": false,
+      "isExpanded": false,
+      "position": 6,
+      "objective": "Retrieve the lost artifacts",
+      "enemies": "Lard",
+      "environment": "Ancient Temple",
+      "tactics": "Solve puzzles to proceed"
+    },
+    {
+      "sessionId": 4,
+      "encounterTypeId": 3,
+      "isForm": false,
+      "position": 1,
+      "objective": "Pet the bunny",
+      "enemies": "none",
+      "environment": "Flowery garden",
+      "tactics": "use hand",
+      "isExpanded": true,
+      "id": 4
+    },
+    {
+      "sessionId": 5,
+      "encounterTypeId": 4,
+      "isForm": false,
+      "position": 1,
+      "objective": "Construct a rocking chair",
+      "enemies": "Electricians ",
+      "environment": "Old man Johnson's house",
+      "tactics": "Measure twice cut once",
+      "isExpanded": true,
+      "id": 5
+    },
+    {
+      "sessionId": 6,
+      "encounterTypeId": 1,
+      "isForm": false,
+      "position": 1,
+      "objective": "defeat the owlbear sdfgsdfg",
+      "enemies": " owlbear",
+      "environment": "frozen tundra",
+      "tactics": "throwing spears",
+      "isExpanded": false,
+      "id": 6
+    },
+    {
+      "sessionId": 6,
+      "encounterTypeId": 4,
+      "isForm": false,
+      "position": 3,
+      "objective": "asdf",
+      "enemies": "asdf",
+      "environment": "asdf",
+      "tactics": "asdf",
+      "isExpanded": false,
+      "id": 7
+    },
+    {
+      "sessionId": 6,
+      "encounterTypeId": 1,
+      "isForm": false,
+      "position": 2,
+      "objective": "",
+      "enemies": "",
+      "environment": "",
+      "tactics": "",
+      "isExpanded": false,
+      "id": 8
+    },
+    {
+      "sessionId": 7,
+      "encounterTypeId": 3,
+      "isForm": false,
+      "position": 1,
+      "objective": "Convince the raven to help you",
+      "enemies": "none",
+      "environment": "A bush",
+      "tactics": "Offer a shiny object",
+      "isExpanded": true,
+      "id": 9
+    },
+    {
+      "sessionId": 1,
+      "encounterTypeId": 1,
+      "isForm": false,
+      "position": 4,
+      "objective": "Take the dragon's hoard ",
+      "enemies": "Black dragon",
+      "environment": "Dragon's lair",
+      "tactics": "Use the amulet of dragon killing",
+      "isExpanded": false,
+      "id": 10
+    },
+    {
+      "sessionId": 1,
+      "encounterTypeId": 4,
+      "isForm": false,
+      "position": 5,
+      "objective": "sdfasdf",
+      "enemies": "sadfasdf",
+      "environment": "sadfasdf",
+      "tactics": "asdfasdf",
+      "isExpanded": false,
+      "id": 11
+    },
+    {
+      "sessionId": 9,
+      "encounterTypeId": 6,
+      "isForm": false,
+      "position": 1,
+      "objective": "Build a porch",
+      "enemies": "Electricians",
+      "environment": "Old man Johnson's house",
+      "tactics": "Measure twice cut once",
+      "isExpanded": true,
+      "id": 12
+    }
+  ],
+  "encounterTypes": [
+    {
+      "id": 1,
+      "name": "Combat",
+      "description": "Direct conflict between the player characters and one or more adversaries. It typically includes elements such as initiative rolls, tactical positioning, and resource management (like hit points and spells) as the players strive to overcome their opponents through combat prowess and strategy.",
+      "image": "https://www.dicemonkey.net/wp-content/uploads/2020/02/WAg3SIj.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Stealth",
+      "description": "Stealth encounters emphasize the characters' ability to move unseen and unheard, avoiding detection by enemies or other obstacles. Players may need to make stealth checks, find hiding spots, or distract guards to accomplish their objectives without alerting their foes.",
+      "image": "https://www.belloflostsouls.net/wp-content/uploads/2021/08/dnd-stealth-header-image.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Social",
+      "description": "Social encounters focus on interaction and negotiation between the player characters and non-player characters (NPCs). This could involve anything from convincing a noble to grant them an audience, persuading a guard to let them pass, or gathering information from a hesitant informant. Charisma-based skills are often crucial in these encounters.",
+      "image": "https://i0.wp.com/creativegamemechanics.com/wp-content/uploads/2023/03/social-encounters-featured.jpg?fit=850%2C537&ssl=1"
+    },
+    {
+      "id": 4,
+      "name": "Puzzle",
+      "description": "Puzzle encounters challenge players with intellectual and problem-solving tasks. These could range from deciphering ancient runes to unlocking a mechanism that blocks their progress. Players must use logic, deduction, and sometimes teamwork to overcome these challenges.",
+      "image": "https://static.wixstatic.com/media/3bd763_2441b3175bcd4bbaa3c5db5a47c7e35c~mv2.jpg/v1/fill/w_640,h_444,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/3bd763_2441b3175bcd4bbaa3c5db5a47c7e35c~mv2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Exploration",
+      "description": "Exploration encounters involve the characters traversing unfamiliar terrain or delving into unknown locations. Players might uncover hidden treasures, encounter natural hazards, or stumble upon forgotten ruins. These encounters often reward curiosity and resourcefulness.",
+      "image": "https://aravar27.wordpress.com/wp-content/uploads/2021/06/borderland_explorer_by_lucasgraciano_dah5dit-pre.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Skill Challenge",
+      "description": "Skill challenges present players with a series of tasks or obstacles that require the effective use of their character's skills and abilities. Success often depends on a combination of creativity, strategy, and clever application of their character's strengths.",
+      "image": "https://static1.cbrimages.com/wordpress/wp-content/uploads/2021/04/Candlekeep-Mysteries-Key-Art-by-Clint-Cearley.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Mystery",
+      "description": "Mystery encounters involve unraveling enigmatic plots, solving intricate puzzles, or uncovering hidden truths. Players must piece together clues, interrogate suspects, and follow leads to uncover the secrets lurking beneath the surface. These encounters can be both intellectually stimulating and emotionally engaging.",
+      "image": "https://www.dndbeyond.com/attachments/11/155/murder-mystery.jpg"
+    }
+  ]
+}
