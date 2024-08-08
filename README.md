@@ -26,7 +26,7 @@
 This repo contains the api for the Chronicle project. Begin with the "Installation" section here, then continue with the client instructions https://github.com/Justin-Acosta/session-planner
 
 ### Prerequisites
-- json-server version 0.17.4 (this project is not compatable with beta version 1.0)
+-IMPORTANT: json-server version 0.17.4 (this project is not compatable with beta version 1.0)
 
 ### Installation
 1. Clone this repository from Github
