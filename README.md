@@ -31,7 +31,7 @@ This repo contains the api for the Chronicle project. Begin with the "Installati
 ### Installation
 1. Clone this repository from Github
 2. Navigate to this project's directory
-3. 
+3. Run ```json-server -p 8088 database.json```
 4. Follow the installation instructions for the client here https://github.com/Justin-Acosta/session-planner
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
